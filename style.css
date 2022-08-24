@@ -6,3 +6,18 @@ body {
   width: 1000px;
   margin: 65px;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+}
