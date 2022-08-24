@@ -7,7 +7,7 @@ body {
   margin: 65px;
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
 
