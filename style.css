@@ -10,11 +10,16 @@
 body {
   margin: auto;
   font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+  min-height: 100vh;
+
 }
 
 .page {
   width: 1000px;
-  margin: 65px;
+  margin: 0 auto;
+  padding-top: 65px;
 }
 
 nav {
@@ -39,8 +44,13 @@ a {
   text-decoration: none;
 }
 
+ul li a {
+  opacity: 0.5;
+}
+
 ul li a:hover {
   font-weight: bold;
+  opacity: 1;
 }
 
 h1, ul {
@@ -105,4 +115,10 @@ footer {
   text-align: center;
 
   margin-top: 80px;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
