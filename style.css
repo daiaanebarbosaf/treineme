@@ -3,6 +3,7 @@
   --color-emphasis: #89C5CC;
   --color-paragraph: #7D7987;
   --color-button: #69B99D;
+  --color-button-hover: #4ea788;
 
 }
 
@@ -89,6 +90,12 @@ button {
 
   padding: 14px 32px 15px;
   gap: 10px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--color-button-hover);
 }
 
 footer {
